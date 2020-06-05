@@ -169,7 +169,7 @@
                            (td/add-entity-edn members))
             >>           (println :-----memb)
             root-book    (prof/with-timer-print :load-bookings
-                           (td/add-entity-edn (take 9900 bookings)))
+                           (td/add-entity-edn (take 99 bookings)))
             >>           (println :-----book)
 
             ;eid0  (td/match [{:eid ? :facid 0}])
